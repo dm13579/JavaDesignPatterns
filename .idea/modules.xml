@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaDesignPatterns.iml" filepath="$PROJECT_DIR$/.idea/JavaDesignPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leetCode/leetCode.iml" filepath="$PROJECT_DIR$/leetCode/leetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/strategy_attern/strategy_attern.iml" filepath="$PROJECT_DIR$/strategy_attern/strategy_attern.iml" />
+    </modules>
+  </component>
+</project>

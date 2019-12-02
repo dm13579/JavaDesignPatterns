@@ -4,7 +4,7 @@ public class Bread_M implements Food_M{
 
 	@Override
 	public void eat() {
-		System.out.println("客人吃面包");
+		System.out.println("鍚冧簡闈㈠寘");
 	}
 
 }

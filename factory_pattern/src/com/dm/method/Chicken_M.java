@@ -4,7 +4,7 @@ public class Chicken_M implements Food_M{
 
 	@Override
 	public void eat() {
-		System.out.println("¿ÍÈË³ÔÁË¼¦Èâ");
+		System.out.println("åƒäº†é¸¡è‚‰");
 	}
 
 }

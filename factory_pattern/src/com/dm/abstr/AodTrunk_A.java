@@ -4,7 +4,7 @@ public class AodTrunk_A implements Trunk_A {
 
 	@Override
 	public void run() {
-		System.out.println("°ÂµÏ¿¨³µ");
+		System.out.println("ï¿½ÂµÏ¿ï¿½ï¿½ï¿½");
 	}
 
 }

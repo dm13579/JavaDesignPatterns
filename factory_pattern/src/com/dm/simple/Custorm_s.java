@@ -3,8 +3,8 @@ package com.dm.simple;
 public class Custorm_s {
 	
 	public static void main(String[] args) {
-		FoodFactory.produceFood("√◊∑π").eat();
-		FoodFactory.produceFood("º¶»‚").eat();
-		FoodFactory.produceFood("≈£»‚").eat();
+		FoodFactory.produceFood("Á±≥È•≠").eat();
+		FoodFactory.produceFood("Èù¢ÂåÖ").eat();
+		FoodFactory.produceFood("È∏°ËÇâ").eat();
 	}
 }

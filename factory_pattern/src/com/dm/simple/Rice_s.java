@@ -4,7 +4,7 @@ public class Rice_s implements Food{
 
 	@Override
 	public void eat() {
-		System.out.println("¿ÍÈË³ÔÁËÃ×·¹");
+		System.out.println("åƒç±³é¥­");
 	}
 
 }
