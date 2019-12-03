@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaDesignPatterns.iml" filepath="$PROJECT_DIR$/.idea/JavaDesignPatterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/build_pattern/build_pattern.iml" filepath="$PROJECT_DIR$/build_pattern/build_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/leetCode/leetCode.iml" filepath="$PROJECT_DIR$/leetCode/leetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prototype_pattern/prototype_pattern.iml" filepath="$PROJECT_DIR$/prototype_pattern/prototype_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/single_pattern/single_pattern.iml" filepath="$PROJECT_DIR$/single_pattern/single_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/strategy_attern/strategy_attern.iml" filepath="$PROJECT_DIR$/strategy_attern/strategy_attern.iml" />
     </modules>
