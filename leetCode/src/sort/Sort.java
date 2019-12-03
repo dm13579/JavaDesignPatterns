@@ -22,11 +22,35 @@ public class Sort {
 //        insertionSort(array);
 
         //希尔排序
-        shellSort(array);
+//        shellSort(array);
+
+        // 归并排序
+//        mergeSort(array);
+
+//        // 快速排序
+//        quickSort(array);
+//
+//        // 堆排序
+//        heapSort(array);
 
         for(Integer value : array){
             System.out.println(value);
         }
+    }
+
+    // 堆排序
+    public static void heapSort(Integer []array){
+
+    }
+
+    // 快速排序
+    public static void quickSort(Integer []array){
+
+    }
+
+    // 归并排序
+    public static void mergeSort(Integer []array){
+
     }
 
     // 希尔排序
@@ -101,24 +125,7 @@ public class Sort {
         for(int i=0;i<length;i++){
             // -i是后面i个是排好的，-1是最后一编不用排
             for(int j=0;j<length-i-1;j++){
-                // 二数交换  可优化
-                // 1,普通方法
-//                if(array[j] > array[j+1]){
-//                    int temp = array[j];
-//                    array[j] = array[j+1];
-//                    array[j+1] = temp;
-//                }
-                // 2,加减方法,没有临时变量,假设a=2,b=3,接下来b = a + b = 5;a = b - a = 5 - 2 = 3; b = b - a = 5 - 3 = 2;
-//                if(array[j] > array[j+1]){
-//                    array[j+1] =  array[j]+array[j+1];    // b = a + b = 5;     此时a = 2,b = 5;
-//                    array[j] = array[j+1] - array[j];     // a = b - a = 5 - 2 = 3; 此时a = 3,b = 5;
-//                    array[j+1] = array[j+1] - array[j];   // b = b - a = 5 - 3 = 2 此时a = 3,b = 2;
-                // 3,异或方法，没有临时变量,假设a=2,b=3,二进制也就是a=10,b=11异或后a=a^b=11^10=01,b=a^b=01^11=10,a=a^b=01^10=11
-                if(array[j] > array[j+1]) {
-                    array[j] = array[j]^array[j+1];      // a=a^b=11^10=01;   a=01,b=11
-                    array[j+1] = array[j]^array[j+1];    // b=a^b=01^11=10    a=01,b=10
-                    array[j] = array[j]^array[j+1];      // a=a^b=01^10=11    a=11,b=10
-                }
+                swap(array,j,j+1);
             }
         }
     }
