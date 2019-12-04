@@ -25,7 +25,7 @@ public class Sort {
 //        shellSort(array);
 
         // 归并排序
-//        mergeSort(array);
+        mergeSort(array);
 
 //        // 快速排序
 //        quickSort(array);
