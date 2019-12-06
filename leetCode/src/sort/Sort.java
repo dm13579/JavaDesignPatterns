@@ -11,7 +11,8 @@ public class Sort {
 
     public static void main(String[] args) {
 //        Integer []array = {3,3,1,5,4};
-        Integer []array = {84,83,88,87,61,50,70,60,80,99};
+//        Integer []array = {84,83,88,87,61,50,70,60,80,99};
+        Integer []array = {50,10,90,30,70,40,80,60,20};
         // 冒泡排序
 //        bubbleSort(array);
 
@@ -25,7 +26,7 @@ public class Sort {
 //        shellSort(array);
 
         // 归并排序
-        mergeSort(array);
+        mergeSort(array,0,array.length-1);
 
 //        // 快速排序
 //        quickSort(array);
@@ -48,9 +49,41 @@ public class Sort {
 
     }
 
-    // 归并排序
-    public static void mergeSort(Integer []array){
+    // 排序过程
+    public static void merge(Integer []array,int low,int mid,int high){
+        int[] temp = new int[high - low + 1];
+        int i = low;
+        int j = mid + 1;
+        int k = 0;
 
+        while(i<=mid&&j<=high){
+            if(array[i]<=array[j]){
+                temp[k++] = array[i++];
+            }else{
+                temp[k++] = array[j++];
+            }
+        }
+
+        while (i <= mid) {
+            temp[k++] = array[i++];
+        }
+        while (j <= high) {
+            temp[k++] = array[j++];
+        }
+
+        for (int k2 = 0; k2 < temp.length; k2++) {
+            array[k2 + low] = temp[k2];
+        }
+    }
+
+    // 归并排序
+    public static void mergeSort(Integer []array,int low,int high){
+        int mid = low+(high - low)/2; // 防止数过大会超过Intgeer
+        if(low < high){
+            mergeSort(array,low,mid);
+            mergeSort(array,mid+1,high);
+            merge(array,low,mid,high);
+        }
     }
 
     // 希尔排序
