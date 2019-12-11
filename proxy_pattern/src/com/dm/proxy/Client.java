@@ -4,7 +4,7 @@ package com.dm.proxy;
  * @author Administrator
  * @version V1.0
  * @ClassName:client
- * @Description:TODO
+ * @Description:静态代理与代理模式举例所写代码一致，直接copy了，不做研究
  * @date 2019/12/10
  */
 public class Client {
