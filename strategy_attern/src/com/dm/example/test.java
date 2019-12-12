@@ -1,8 +1,8 @@
-package com.dm;
+package com.dm.example;
 
-import com.dm.strategy.OperationAdd;
-import com.dm.strategy.OperationMultiply;
-import com.dm.strategy.OperationSub;
+import com.dm.example.concretestrategy.OperationAdd;
+import com.dm.example.concretestrategy.OperationMultiply;
+import com.dm.example.concretestrategy.OperationSub;
 
 /**
  * @author Administrator

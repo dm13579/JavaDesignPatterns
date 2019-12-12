@@ -1,4 +1,4 @@
-package com.dm;
+package com.dm.strategy;
 
 /**
  * @author Administrator
@@ -9,6 +9,6 @@ package com.dm;
  */
 public interface Strategy {
 
-    public int doOperation(int num1,int num2);
+    public void strategyMethod();
 
 }

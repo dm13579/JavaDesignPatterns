@@ -1,6 +1,6 @@
-package com.dm.strategy;
+package com.dm.example.concretestrategy;
 
-import com.dm.Strategy;
+import com.dm.example.Strategy;
 
 /**
  * @author Administrator
@@ -9,10 +9,10 @@ import com.dm.Strategy;
  * @Description:TODO
  * @date 2019/12/2
  */
-public class OperationMultiply implements Strategy {
+public class OperationSub implements Strategy {
 
     @Override
     public int doOperation(int num1, int num2) {
-        return num1 * num2;
+        return num1 - num2;
     }
 }

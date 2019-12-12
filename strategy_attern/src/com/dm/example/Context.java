@@ -1,4 +1,4 @@
-package com.dm;
+package com.dm.example;
 
 /**
  * @author Administrator
