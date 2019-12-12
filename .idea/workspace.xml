@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7c1e0f5-b4ac-4a69-9af6-cf28346e2d3c" name="Default" comment="工厂模式" />
+    <list default="true" id="d7c1e0f5-b4ac-4a69-9af6-cf28346e2d3c" name="Default" comment="代理（静态代理，jdk动态代理，）">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interpreter_pattern/Interpreter_pattern.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interpreter_pattern/src/com/dm/interpreter/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chainofresponsibility_pattern/chainofresponsibility_pattern.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/facade_pattern/facade_pattern.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/proxy_pattern/proxy_pattern.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/refletxtandproxy/refletxtandproxy.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/refletxtandproxy/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,6 +21,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" flattened_view="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/JavaDesignPatterns$Sort.coverage" NAME="Sort Coverage Results" MODIFIED="1575451726786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>sort.*</FILTER>
@@ -17,21 +30,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetCode/src/sort/Sort.java">
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Interpreter_pattern/src/com/dm/interpreter/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="56" column="4" lean-forward="false" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sedan_A.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/factory_pattern/src/com/dm/abstr/Sedan_A.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="286">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -47,6 +50,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ProxyClassFactory</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -58,57 +66,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build_pattern/src/com/dm/build/Coke.java" />
-        <option value="$PROJECT_DIR$/build_pattern/src/com/dm/build/ChickenBurger.java" />
-        <option value="$PROJECT_DIR$/build_pattern/src/com/dm/build/burger/VegBurger.java" />
-        <option value="$PROJECT_DIR$/build_pattern/src/com/dm/build/base1/Item.java" />
-        <option value="$PROJECT_DIR$/build_pattern/src/com/dm/build/Bottle.java" />
-        <option value="$PROJECT_DIR$/build_pattern/src/com/dm/build/ColdDrink.java" />
-        <option value="$PROJECT_DIR$/build_pattern/src/com/dm/build/Burger.java" />
-        <option value="$PROJECT_DIR$/build_pattern/src/com/dm/build/Wrapper.java" />
-        <option value="$PROJECT_DIR$/build_pattern/src/com/dm/build/base/Item.java" />
-        <option value="$PROJECT_DIR$/build_pattern/src/com/dm/build/base/Wrapper.java" />
-        <option value="$PROJECT_DIR$/build_pattern/src/com/dm/build/pack/Wrapper.java" />
-        <option value="$PROJECT_DIR$/build_pattern/src/com/dm/build/pack/Bottle.java" />
-        <option value="$PROJECT_DIR$/build_pattern/src/com/dm/build/colddrink/ColdDrink.java" />
-        <option value="$PROJECT_DIR$/build_pattern/src/com/dm/build/colddrink/Coke.java" />
-        <option value="$PROJECT_DIR$/build_pattern/src/com/dm/build/burger/Burger.java" />
-        <option value="$PROJECT_DIR$/build_pattern/src/com/dm/build/Meal.java" />
-        <option value="$PROJECT_DIR$/build_pattern/src/com/dm/build/MealBuilder.java" />
-        <option value="$PROJECT_DIR$/build_pattern/src/com/dm/build/test.java" />
-        <option value="$PROJECT_DIR$/build_pattern/src/com/dm/build/burger/ChickenBurger.java" />
-        <option value="$PROJECT_DIR$/build_pattern/src/com/dm/build/base/Packing.java" />
-        <option value="$PROJECT_DIR$/build_pattern/src/com/dm/build1/Builder.java" />
-        <option value="$PROJECT_DIR$/build_pattern/src/com/dm/build1/Director.java" />
-        <option value="$PROJECT_DIR$/build_pattern/src/com/dm/build1/Client.java" />
-        <option value="$PROJECT_DIR$/build_pattern/src/com/dm/build1/Product.java" />
-        <option value="$PROJECT_DIR$/build_pattern/src/com/dm/build1/ConcreteBuilder.java" />
-        <option value="$PROJECT_DIR$/prototype_pattern/src/com/dm/prototype/Rectangle.java" />
-        <option value="$PROJECT_DIR$/prototype_pattern/src/com/dm/prototype/Square.java" />
-        <option value="$PROJECT_DIR$/prototype_pattern/src/com/dm/prototype/shape/Square.java" />
-        <option value="$PROJECT_DIR$/prototype_pattern/src/com/dm/prototype/ShapeCache.java" />
-        <option value="$PROJECT_DIR$/prototype_pattern/src/com/dm/prototype/Client.java" />
-        <option value="$PROJECT_DIR$/prototype_pattern/src/com/dm/prototype/Shape.java" />
-        <option value="$PROJECT_DIR$/prototype_pattern/src/com/dm/prototype/shape/Circle.java" />
-        <option value="$PROJECT_DIR$/leetCode/src/sort/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/adapter_pattern/src/com/dm/adapter/Target.java" />
-        <option value="$PROJECT_DIR$/adapter_pattern/src/com/dm/adapter/Client.java" />
-        <option value="$PROJECT_DIR$/adapter_pattern/src/com/dm/adapter/Adapter.java" />
-        <option value="$PROJECT_DIR$/adapter_pattern/src/com/dm/adapter/ObjectAdapter.java" />
-        <option value="$PROJECT_DIR$/bridge_pattern/src/com/dm/bridge/Implementor.java" />
-        <option value="$PROJECT_DIR$/bridge_pattern/src/com/dm/bridge/ConcreteImplementorA.java" />
-        <option value="$PROJECT_DIR$/bridge_pattern/src/com/dm/bridge/Client.java" />
-        <option value="$PROJECT_DIR$/bridge_pattern/src/com/dm/bridge/Abstraction.java" />
-        <option value="$PROJECT_DIR$/bridge_pattern/src/com/dm/bridge/RefinedAbstraction.java" />
-        <option value="$PROJECT_DIR$/bridge_pattern/src/com/dm/bridgeexample/Color.java" />
-        <option value="$PROJECT_DIR$/bridge_pattern/src/com/dm/bridgeexample/Yellow.java" />
-        <option value="$PROJECT_DIR$/bridge_pattern/src/com/dm/bridgeexample/Red.java" />
-        <option value="$PROJECT_DIR$/bridge_pattern/src/com/dm/bridgeexample/color/Yellow.java" />
-        <option value="$PROJECT_DIR$/bridge_pattern/src/com/dm/bridgeexample/bag/Bag.java" />
-        <option value="$PROJECT_DIR$/bridge_pattern/src/com/dm/bridgeexample/bag/Wallet.java" />
-        <option value="$PROJECT_DIR$/bridge_pattern/src/com/dm/bridgeexample/bag/HandBag.java" />
-        <option value="$PROJECT_DIR$/bridge_pattern/src/com/dm/bridgeexample/Client.java" />
-        <option value="$PROJECT_DIR$/leetCode/src/sort/Sort.java" />
+        <option value="$PROJECT_DIR$/decorator_pattern/src/com/dm/example/finery/Sneakers.java" />
+        <option value="$PROJECT_DIR$/decorator_pattern/src/com/dm/example/finery/TShirt.java" />
+        <option value="$PROJECT_DIR$/decorator_pattern/src/com/dm/example/Finery.java" />
+        <option value="$PROJECT_DIR$/decorator_pattern/src/com/dm/example/client.java" />
+        <option value="$PROJECT_DIR$/decorator_pattern/src/com/dm/decorator/Decorator.java" />
+        <option value="$PROJECT_DIR$/decorator_pattern/src/com/dm/decorator/ConcreteComponent.java" />
+        <option value="$PROJECT_DIR$/decorator_pattern/src/com/dm/decorator/ConcreteDecorator.java" />
+        <option value="$PROJECT_DIR$/facade_pattern/src/com/dm/facade/SubSystem1.java" />
+        <option value="$PROJECT_DIR$/facade_pattern/src/com/dm/facade/subsystem/SubSystem1.java" />
+        <option value="$PROJECT_DIR$/facade_pattern/src/com/dm/facade/subsystem/SubSystem23.java" />
+        <option value="$PROJECT_DIR$/facade_pattern/src/com/dm/facade/subsystem/SubSystem3.java" />
+        <option value="$PROJECT_DIR$/facade_pattern/src/com/dm/facade/subsystem/SubSystem2.java" />
+        <option value="$PROJECT_DIR$/facade_pattern/src/com/dm/facade/Client.java" />
+        <option value="$PROJECT_DIR$/facade_pattern/src/com/dm/facade/Facade.java" />
+        <option value="$PROJECT_DIR$/flyweight_pattern/src/client.java" />
+        <option value="$PROJECT_DIR$/proxy_pattern/src/client.java" />
+        <option value="$PROJECT_DIR$/refletxtandproxy/pom.xml" />
+        <option value="$PROJECT_DIR$/flyweight_pattern/src/Client.java" />
+        <option value="$PROJECT_DIR$/flyweight_pattern/src/com/dm/flyweight/UnsharedConcreteFlyweight.java" />
+        <option value="$PROJECT_DIR$/flyweight_pattern/src/com/dm/flyweight/Flyweight.java" />
+        <option value="$PROJECT_DIR$/flyweight_pattern/src/com/dm/flyweight/ConcreteFlyweight.java" />
+        <option value="$PROJECT_DIR$/flyweight_pattern/src/com/dm/flyweight/FlyweightFactory.java" />
+        <option value="$PROJECT_DIR$/flyweight_pattern/src/com/dm/flyweight/Client.java" />
+        <option value="$PROJECT_DIR$/proxy_pattern/src/com/dm/proxy/Subject.java" />
+        <option value="$PROJECT_DIR$/proxy_pattern/src/com/dm/proxy/Client.java" />
+        <option value="$PROJECT_DIR$/proxy_pattern/src/com/dm/proxy/Proxy.java" />
+        <option value="$PROJECT_DIR$/refletxtandproxy/src/proxy/staticproxy/Subject.java" />
+        <option value="$PROJECT_DIR$/refletxtandproxy/src/proxy/staticproxy/Client.java" />
+        <option value="$PROJECT_DIR$/refletxtandproxy/src/proxy/jdkproxy/Subject.java" />
+        <option value="$PROJECT_DIR$/refletxtandproxy/src/proxy/jdkproxy/Proxy.java" />
+        <option value="$PROJECT_DIR$/refletxtandproxy/src/proxy/jdkproxy/Client.java" />
+        <option value="$PROJECT_DIR$/refletxtandproxy/src/proxy/jdkproxy/JdkProxy.java" />
+        <option value="$PROJECT_DIR$/refletxtandproxy/src/proxy/cglibproxy/CglibProxy.java" />
+        <option value="$PROJECT_DIR$/refletxtandproxy/src/proxy/cglibproxy/RealSubject.java" />
+        <option value="$PROJECT_DIR$/refletxtandproxy/src/proxy/cglibproxy/Client.java" />
+        <option value="$PROJECT_DIR$/proxy_pattern/src/com/dm/proxy/RealSubject.java" />
+        <option value="$PROJECT_DIR$/chainofresponsibility_pattern/src/com/dm/chainofresponsibility/Handler.java" />
+        <option value="$PROJECT_DIR$/chainofresponsibility_pattern/src/com/dm/chainofresponsibility/ConcreteHandler1.java" />
+        <option value="$PROJECT_DIR$/chainofresponsibility_pattern/src/com/dm/chainofresponsibility/concretehandler/ConcreteHandler1.java" />
+        <option value="$PROJECT_DIR$/chainofresponsibility_pattern/src/com/dm/chainofresponsibility/concretehandler/ConcreteHandler2.java" />
+        <option value="$PROJECT_DIR$/chainofresponsibility_pattern/src/com/dm/chainofresponsibility/concretehandler/ConcreteHandler3.java" />
+        <option value="$PROJECT_DIR$/chainofresponsibility_pattern/src/com/dm/chainofresponsibility/Client.java" />
+        <option value="$PROJECT_DIR$/command_pattern/src/com/dm/command/Command.java" />
+        <option value="$PROJECT_DIR$/command_pattern/src/com/dm/command/receiver/Receiver2.java" />
+        <option value="$PROJECT_DIR$/command_pattern/src/com/dm/command/receiver/Receiver1.java" />
+        <option value="$PROJECT_DIR$/command_pattern/src/com/dm/command/concretecommand/ConcreteCommand1.java" />
+        <option value="$PROJECT_DIR$/command_pattern/src/com/dm/command/concretecommand/ConcreteCommand2.java" />
+        <option value="$PROJECT_DIR$/command_pattern/src/com/dm/command/Invoke.java" />
+        <option value="$PROJECT_DIR$/command_pattern/src/com/dm/command/Client.java" />
+        <option value="$PROJECT_DIR$/Interpreter_pattern/src/com/dm/Client.java" />
+        <option value="$PROJECT_DIR$/Interpreter_pattern/src/com/dm/interpreter/Client.java" />
       </list>
     </option>
   </component>
@@ -117,6 +125,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1358" />
@@ -142,7 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -167,7 +177,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="factory_pattern" />
+              <option name="myItemId" value="Interpreter_pattern" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -181,33 +191,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="factory_pattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaDesignPatterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaDesignPatterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="factory_pattern" />
+              <option name="myItemId" value="Interpreter_pattern" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -223,32 +207,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="abstr" />
+              <option name="myItemId" value="interpreter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/factory_pattern" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="UML&#9;ACTION&#9;ShowUmlDiagram" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.dm.prototype.shape" />
-      <recent name="com.dm.prototype" />
-      <recent name="com.dm.build" />
-      <recent name="com.dm.single" />
-      <recent name="com.dm.strategy" />
+      <recent name="com.dm.command.receiver" />
+      <recent name="com.dm.command.concretecommand" />
+      <recent name="com.dm.chainofresponsibility.concretehandler" />
+      <recent name="proxy.cglibproxy" />
+      <recent name="com.dm.facade.subsystem" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea\github\JavaDesignPatterns\proxy_pattern\src\com\dm\proxy" />
+      <recent name="E:\idea\github\JavaDesignPatterns\refletxtandproxy\src\proxy\jdkproxy" />
+      <recent name="E:\idea\github\JavaDesignPatterns\refletxtandproxy\src" />
+      <recent name="E:\idea\github\JavaDesignPatterns\composite_pattern\src\com\dm\composite\safety" />
       <recent name="E:\idea\github\JavaDesignPatterns\factory_pattern\src" />
     </key>
   </component>
@@ -264,55 +257,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Sort">
-    <configuration default="false" name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.dm.prototype.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.dm.prototype.Client" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="prototype_pattern" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="sort.Sort" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="leetCode" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Client (5)">
     <configuration default="false" name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.dm.adapter.*" />
+          <option name="PATTERN" value="com.dm.flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.dm.adapter.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.dm.flyweight.Client" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -321,18 +274,18 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="adapter_pattern" />
+      <module name="flyweight_pattern" />
       <envs />
       <method />
     </configuration>
     <configuration default="false" name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.dm.bridge.*" />
+          <option name="PATTERN" value="proxy.jdkproxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.dm.bridge.Client" />
+      <option name="MAIN_CLASS_NAME" value="proxy.jdkproxy.Client" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -341,18 +294,18 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="bridge_pattern" />
+      <module name="refletxtandproxy" />
       <envs />
       <method />
     </configuration>
     <configuration default="false" name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.dm.bridgeexample.*" />
+          <option name="PATTERN" value="proxy.cglibproxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.dm.bridgeexample.Client" />
+      <option name="MAIN_CLASS_NAME" value="proxy.cglibproxy.Client" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -361,7 +314,47 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="bridge_pattern" />
+      <module name="refletxtandproxy" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.dm.chainofresponsibility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.dm.chainofresponsibility.Client" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="chainofresponsibility_pattern" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Client (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.dm.command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.dm.command.Client" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="command_pattern" />
       <envs />
       <method />
     </configuration>
@@ -753,24 +746,27 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Client (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Sort" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Client (2)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Client (3)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Client (4)" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Client (2)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Client (3)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Client (4)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Client" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Client (5)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Sort" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Client (4)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Client (5)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Client" />
         <item index="2" class="java.lang.String" itemvalue="Application.Client (3)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Client (2)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Client (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Client (4)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Client (2)" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -789,7 +785,13 @@
       <workItem from="1575523849829" duration="1772000" />
       <workItem from="1575595173977" duration="4359000" />
       <workItem from="1575614528057" duration="508000" />
-      <workItem from="1575874859877" duration="1351000" />
+      <workItem from="1575874859877" duration="9834000" />
+      <workItem from="1575941605672" duration="10033000" />
+      <workItem from="1575957146041" duration="439000" />
+      <workItem from="1575966692746" duration="256000" />
+      <workItem from="1576028364116" duration="16172000" />
+      <workItem from="1576048995335" duration="3696000" />
+      <workItem from="1576113533270" duration="4127000" />
     </task>
     <task id="LOCAL-00001" summary="策略模式">
       <created>1573703402711</created>
@@ -903,46 +905,145 @@
       <option name="project" value="LOCAL" />
       <updated>1575875447327</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="组合模式">
+      <created>1575886088932</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1575886088932</updated>
+    </task>
+    <task id="LOCAL-00018" summary="装饰模式">
+      <created>1575949036069</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1575949036069</updated>
+    </task>
+    <task id="LOCAL-00019" summary="外观模式">
+      <created>1575956300565</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1575956300565</updated>
+    </task>
+    <task id="LOCAL-00020" summary="java反射机制">
+      <created>1575966916435</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1575966916435</updated>
+    </task>
+    <task id="LOCAL-00021" summary="享元模式">
+      <created>1576032409762</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1576032409762</updated>
+    </task>
+    <task id="LOCAL-00022" summary="代理模式">
+      <created>1576034886212</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1576034886212</updated>
+    </task>
+    <task id="LOCAL-00023" summary="代理模式">
+      <created>1576049116595</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1576049116595</updated>
+    </task>
+    <task id="LOCAL-00024" summary="代理（静态代理，jdk动态代理，cglib代理）">
+      <created>1576049139645</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1576049139645</updated>
+    </task>
+    <task id="LOCAL-00025" summary="cglib-jar">
+      <created>1576049220851</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1576049220851</updated>
+    </task>
+    <task id="LOCAL-00026" summary="cglib-jar">
+      <created>1576049601908</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1576049601908</updated>
+    </task>
+    <task id="LOCAL-00027" summary="责任链模式（职责链模式）">
+      <created>1576051383154</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1576051383154</updated>
+    </task>
+    <task id="LOCAL-00028" summary="命令模式">
+      <created>1576118721761</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1576118721761</updated>
+    </task>
+    <task id="LOCAL-00029" summary="命令模式">
+      <created>1576119099930</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1576119099930</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64856000" />
+    <option name="totallyTimeSpent" value="108062000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-68" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.041340783" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45027933" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09385475" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45027933" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17590618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4368715" sideWeight="0.40778252" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26815644" sideWeight="0.48933902" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4368715" sideWeight="0.5922175" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18656716" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35530725" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35530725" sideWeight="0.48720682" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.4978678" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -982,13 +1083,69 @@
     <MESSAGE value="桥接模式" />
     <MESSAGE value="算法" />
     <MESSAGE value="工厂模式模式" />
-    <MESSAGE value="组合模式" />
     <MESSAGE value="工厂模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="工厂模式" />
+    <MESSAGE value="组合模式" />
+    <MESSAGE value="装饰模式" />
+    <MESSAGE value="外观模式" />
+    <MESSAGE value="java反射机制" />
+    <MESSAGE value="享元模式" />
+    <MESSAGE value="代理模式" />
+    <MESSAGE value="代理（静态代理，jdk动态代理，cglib代理）" />
+    <MESSAGE value="cglib-jar" />
+    <MESSAGE value="责任链模式（职责链模式）" />
+    <MESSAGE value="命令模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="命令模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="27" />
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/decorator_pattern/src/com/dm/example/client.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/decorator_pattern/src/com/dm/example/finery/Sneakers.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/decorator_pattern/src/com/dm/example/finery/TShirt.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/decorator_pattern/src/com/dm/example/finery/BigTrouser.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Proxy.java</url>
+          <line>718</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Proxy.java</url>
+          <line>638</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Proxy.java</url>
+          <line>568</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="43" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1001,350 +1158,563 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/factory_pattern1/src/com/dm/abstr/BmaFactory.java">
+    <entry file="file://$PROJECT_DIR$/composite_pattern/src/com/dm/composite/transparent/client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="286">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/factory_pattern1/src/com/dm/method/Custorm_M.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/src/DP/leetcode_05.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="21" column="55" lean-forward="false" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/single_pattern/src/com/dm/single/HungrymanSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/single_pattern/src/com/dm/single/TestIsThreadSafe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/single_pattern/src/com/dm/single/LazymanSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build_pattern/src/com/dm/build/base.java" />
-    <entry file="file://$PROJECT_DIR$/build_pattern/src/com/dm/build/pack/Wrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build_pattern/src/com/dm/build/pack/Bottle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build_pattern/src/com/dm/build/burger/VegBurger.java">
+    <entry file="file://$PROJECT_DIR$/refletxtandproxy/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/refletxtandproxy/src/reflect/FatherClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build_pattern/src/com/dm/build/base/Packing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build_pattern/src/com/dm/build/base/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build_pattern/src/com/dm/build/burger/ChickenBurger.java">
+    <entry file="file://$PROJECT_DIR$/refletxtandproxy/src/reflect/PrivateClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build_pattern/src/com/dm/build1.java" />
-    <entry file="file://$PROJECT_DIR$/build_pattern/src/com/dm/build/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build_pattern/src/com/dm/build/burger/Burger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build_pattern/src/com/dm/build/colddrink/ColdDrink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build_pattern/src/com/dm/build/colddrink/Coke.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build_pattern/src/com/dm/build/MealBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build_pattern/src/com/dm/build/Meal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build_pattern/src/com/dm/build1/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build_pattern/src/com/dm/build1/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build_pattern/src/com/dm/build1/Builder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build_pattern/src/com/dm/build1/Director.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build_pattern/src/com/dm/build1/ConcreteBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prototype_pattern/src/com/dm/prototype/shape/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prototype_pattern/src/com/dm/prototype/shape/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prototype_pattern/src/com/dm/prototype/shape/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prototype_pattern/src/com/dm/prototype/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prototype_pattern/src/com/dm/prototype/ShapeCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prototype_pattern/src/com/dm/prototype/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adapter_pattern/src/com/dm/adapter/Target.java">
+    <entry file="file://$PROJECT_DIR$/bridge_pattern/src/com/dm/bridge/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="23" />
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adapter_pattern/src/com/dm/adapter/Adapter.java">
+    <entry file="uml://JAVA/com.dm.flyweight.Client">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.dm.flyweight.Client</OriginalElement>
+          <nodes>
+            <node x="128.18181818181813" y="354.6363636363636">com.dm.flyweight.Client</node>
+            <node x="-211.81818181818187" y="232.63636363636363">com.dm.flyweight.FlyweightFactory</node>
+            <node x="-133.31818181818187" y="86.63636363636364">com.dm.flyweight.ConcreteFlyweight</node>
+            <node x="-211.81818181818187" y="354.6363636363636">com.dm.flyweight.UnsharedConcreteFlyweight</node>
+            <node x="-211.81818181818187" y="-16.36363636363636">com.dm.flyweight.Flyweight</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.dm.flyweight.FlyweightFactory" target="com.dm.flyweight.ConcreteFlyweight">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.dm.flyweight.Client" target="com.dm.flyweight.FlyweightFactory">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.dm.flyweight.ConcreteFlyweight" target="com.dm.flyweight.Flyweight">
+              <point x="0.0" y="-50.5" />
+              <point x="0.0" y="26.5" />
+            </edge>
+            <edge source="com.dm.flyweight.Client" target="com.dm.flyweight.UnsharedConcreteFlyweight">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.dm.flyweight.FlyweightFactory" target="com.dm.flyweight.Flyweight">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.1" x="-345.0" y="163.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flyweight_pattern/src/com/dm/flyweight/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adapter_pattern/src/com/dm/adapter/ObjectAdapter.java">
+    <entry file="file://$PROJECT_DIR$/flyweight_pattern/src/com/dm/flyweight/FlyweightFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        <state relative-caret-position="185">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adapter_pattern/src/com/dm/adapter/Client.java">
+    <entry file="file://$PROJECT_DIR$/flyweight_pattern/src/com/dm/flyweight/Flyweight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="132">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bridge_pattern/bridge_pattern.iml">
+    <entry file="file://$PROJECT_DIR$/flyweight_pattern/src/com/dm/flyweight/ConcreteFlyweight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="88">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bridge_pattern/src/com/dm/bridgeexample/color/Color.java">
+    <entry file="file://$PROJECT_DIR$/flyweight_pattern/src/com/dm/flyweight/UnsharedConcreteFlyweight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.dm.proxy.Client">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.dm.proxy.Client</OriginalElement>
+          <nodes>
+            <node x="283.0" y="138.0">com.dm.proxy.RealSubject</node>
+            <node x="170.0" y="0.0">com.dm.proxy.Subject</node>
+            <node x="-41.66666666666663" y="106.33333333333334">com.dm.proxy.Proxy</node>
+            <node x="0.0" y="271.0">com.dm.proxy.Client</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.dm.proxy.Proxy" target="com.dm.proxy.Subject">
+              <point x="0.0" y="-61.5" />
+              <point x="88.16666666666674" y="76.33333333333334" />
+              <point x="207.25" y="78.0" />
+              <point x="-37.25" y="26.5" />
+            </edge>
+            <edge source="com.dm.proxy.RealSubject" target="com.dm.proxy.Subject">
+              <point x="0.0" y="-26.5" />
+              <point x="357.5" y="78.0" />
+              <point x="281.75" y="78.0" />
+              <point x="37.25" y="26.5" />
+            </edge>
+            <edge source="com.dm.proxy.Proxy" target="com.dm.proxy.RealSubject">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.dm.proxy.Client" target="com.dm.proxy.Proxy">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="-331.0" y="140.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chainofresponsibility_pattern/src/com/dm/chainofresponsibility.java" />
+    <entry file="file://$PROJECT_DIR$/refletxtandproxy/src/proxy/staticproxy/RealSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refletxtandproxy/src/proxy/staticproxy/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refletxtandproxy/src/proxy/staticproxy/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refletxtandproxy/src/proxy/staticproxy/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bridge_pattern/src/com/dm/bridgeexample/color/Red.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/InvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="32" column="59" lean-forward="true" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/WeakCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2354">
+          <caret line="136" column="34" lean-forward="false" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refletxtandproxy/src/proxy/jdkproxy/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refletxtandproxy/src/proxy/jdkproxy/JdkProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refletxtandproxy/src/proxy/jdkproxy/RealSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="646" column="68" lean-forward="false" selection-start-line="646" selection-start-column="68" selection-end-line="646" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refletxtandproxy/src/proxy/cglibproxy/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refletxtandproxy/src/proxy/cglibproxy/CglibProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refletxtandproxy/src/proxy/cglibproxy/RealSubject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bridge_pattern/src/com/dm/bridgeexample/color/Yellow.java">
+    <entry file="file://$PROJECT_DIR$/refletxtandproxy/src/proxy/jdkproxy/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy_pattern/src/com/dm/proxy/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy_pattern/src/com/dm/proxy/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bridge_pattern/src/com/dm/bridgeexample/bag/Bag.java">
+    <entry file="file://$PROJECT_DIR$/proxy_pattern/src/com/dm/proxy/Proxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        <state relative-caret-position="176">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bridge_pattern/src/com/dm/bridgeexample/bag/Wallet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bridge_pattern/src/com/dm/bridgeexample/bag/HandBag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bridge_pattern/src/com/dm/bridgeexample/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bridge_pattern/src/com/dm/bridge/Abstraction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bridge_pattern/src/com/dm/bridge/Implementor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bridge_pattern/src/com/dm/bridge/ConcreteImplementorA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bridge_pattern/src/com/dm/bridge/RefinedAbstraction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bridge_pattern/src/com/dm/bridge/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composite_pattern/src/com/dm/composite.java">
+    <entry file="file://$PROJECT_DIR$/proxy_pattern/src/com/dm/proxy/RealSubject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/src/sort/Sort.java">
+    <entry file="file://$PROJECT_DIR$/chainofresponsibility_pattern/src/com/dm/chainofresponsibility/ConcreteHandler1.java" />
+    <entry file="file://$PROJECT_DIR$/chainofresponsibility_pattern/src/com/dm/chainofresponsibility/concretehandler.java" />
+    <entry file="uml://JAVA/com.dm.chainofresponsibility.concretehandler.ConcreteHandler1">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.dm.chainofresponsibility.concretehandler.ConcreteHandler1</OriginalElement>
+          <nodes>
+            <node x="94.0" y="31.0">com.dm.chainofresponsibility.concretehandler.ConcreteHandler1</node>
+            <node x="-151.0" y="31.0">com.dm.chainofresponsibility.concretehandler.ConcreteHandler2</node>
+            <node x="-396.0" y="31.0">com.dm.chainofresponsibility.concretehandler.ConcreteHandler3</node>
+            <node x="-161.0" y="-96.0">com.dm.chainofresponsibility.Handler</node>
+            <node x="-396.0" y="129.0">com.dm.chainofresponsibility.Client</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.dm.chainofresponsibility.Client" target="com.dm.chainofresponsibility.concretehandler.ConcreteHandler2">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.dm.chainofresponsibility.Client" target="com.dm.chainofresponsibility.concretehandler.ConcreteHandler1">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.dm.chainofresponsibility.Client" target="com.dm.chainofresponsibility.concretehandler.ConcreteHandler3">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.dm.chainofresponsibility.concretehandler.ConcreteHandler1" target="com.dm.chainofresponsibility.Handler">
+              <point x="0.0" y="-26.5" />
+              <point x="206.5" y="6.0" />
+              <point x="43.166666666666686" y="6.0" />
+              <point x="81.66666666666669" y="38.5" />
+            </edge>
+            <edge source="com.dm.chainofresponsibility.concretehandler.ConcreteHandler2" target="com.dm.chainofresponsibility.Handler">
+              <point x="0.0" y="-26.5" />
+              <point x="0.0" y="38.5" />
+            </edge>
+            <edge source="com.dm.chainofresponsibility.concretehandler.ConcreteHandler3" target="com.dm.chainofresponsibility.Handler">
+              <point x="0.0" y="-26.5" />
+              <point x="-283.5" y="6.0" />
+              <point x="-120.16666666666669" y="6.0" />
+              <point x="-81.66666666666669" y="38.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-275.0" y="-14.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chainofresponsibility_pattern/src/com/dm/chainofresponsibility/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="56" column="4" lean-forward="false" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="88">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/factory_pattern/src/com/dm/abstr/Sedan_A.java">
+    <entry file="file://$PROJECT_DIR$/chainofresponsibility_pattern/src/com/dm/chainofresponsibility/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chainofresponsibility_pattern/src/com/dm/chainofresponsibility/concretehandler/ConcreteHandler1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chainofresponsibility_pattern/src/com/dm/chainofresponsibility/concretehandler/ConcreteHandler2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chainofresponsibility_pattern/src/com/dm/chainofresponsibility/concretehandler/ConcreteHandler3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refletxtandproxy/src/reflect/SonClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refletxtandproxy/src/reflect/ReflectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3340">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/E:/idea/github/JavaDesignPatterns/command_pattern/src/com/dm/command/receiver">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/command_pattern/src/com/dm/command/receiver</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.dm.command.concretecommand.ConcreteCommand1">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.dm.command.concretecommand.ConcreteCommand1</OriginalElement>
+          <nodes>
+            <node x="131.0" y="-166.0">com.dm.command.Invoke</node>
+            <node x="-88.0" y="175.0">com.dm.command.receiver.Receiver1</node>
+            <node x="-128.0" y="-30.0">com.dm.command.concretecommand.ConcreteCommand1</node>
+            <node x="-332.0" y="176.0">com.dm.command.receiver.Receiver2</node>
+            <node x="-369.0" y="-30.0">com.dm.command.concretecommand.ConcreteCommand2</node>
+            <node x="-212.5" y="-133.0">com.dm.command.Command</node>
+            <node x="208.0" y="2.0">com.dm.command.Client</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.dm.command.concretecommand.ConcreteCommand1" target="com.dm.command.Command">
+              <point x="0.0" y="-50.5" />
+              <point x="-17.5" y="-55.0" />
+              <point x="-100.75" y="-55.0" />
+              <point x="37.25" y="26.5" />
+            </edge>
+            <edge source="com.dm.command.concretecommand.ConcreteCommand2" target="com.dm.command.Command">
+              <point x="0.0" y="-50.5" />
+              <point x="-258.5" y="-55.0" />
+              <point x="-175.25" y="-55.0" />
+              <point x="-37.25" y="26.5" />
+            </edge>
+            <edge source="com.dm.command.Client" target="com.dm.command.concretecommand.ConcreteCommand1">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.dm.command.Client" target="com.dm.command.Invoke">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.dm.command.Invoke" target="com.dm.command.Command">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.dm.command.concretecommand.ConcreteCommand2" target="com.dm.command.receiver.Receiver2">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.dm.command.concretecommand.ConcreteCommand1" target="com.dm.command.receiver.Receiver1">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-346.0" y="21.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command_pattern/src/com/dm/command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command_pattern/src/com/dm/command/concretecommand/ConcreteCommand1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command_pattern/src/com/dm/command/concretecommand/ConcreteCommand2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command_pattern/src/com/dm/command/receiver/Receiver1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command_pattern/src/com/dm/command/receiver/Receiver2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command_pattern/src/com/dm/command/Invoke.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+          <folding>
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command_pattern/src/com/dm/command/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interpreter_pattern/src/com/dm/interpreter/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1401,7 +1771,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>JavaDesignPatterns</last-edited>
+          <last-edited>Interpreter_pattern</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1414,6 +1784,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>asm-5.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
