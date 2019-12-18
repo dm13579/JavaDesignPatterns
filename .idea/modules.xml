@@ -15,7 +15,6 @@
       <module fileurl="file://$PROJECT_DIR$/factory_pattern/factory_pattern.iml" filepath="$PROJECT_DIR$/factory_pattern/factory_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/flyweight_pattern/flyweight_pattern.iml" filepath="$PROJECT_DIR$/flyweight_pattern/flyweight_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/iterator_pattern/iterator_pattern.iml" filepath="$PROJECT_DIR$/iterator_pattern/iterator_pattern.iml" />
-      <module fileurl="file://$PROJECT_DIR$/leetCode/leetCode.iml" filepath="$PROJECT_DIR$/leetCode/leetCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/mediator_pattern/mediator_pattern.iml" filepath="$PROJECT_DIR$/mediator_pattern/mediator_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/memento_pattern/memento_pattern.iml" filepath="$PROJECT_DIR$/memento_pattern/memento_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/observer_pattern/observer_pattern.iml" filepath="$PROJECT_DIR$/observer_pattern/observer_pattern.iml" />
