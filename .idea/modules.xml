@@ -14,12 +14,13 @@
       <module fileurl="file://$PROJECT_DIR$/facade_pattern/facade_pattern.iml" filepath="$PROJECT_DIR$/facade_pattern/facade_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/factory_pattern/factory_pattern.iml" filepath="$PROJECT_DIR$/factory_pattern/factory_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/flyweight_pattern/flyweight_pattern.iml" filepath="$PROJECT_DIR$/flyweight_pattern/flyweight_pattern.iml" />
-      <module fileurl="file://$PROJECT_DIR$/io/io.iml" filepath="$PROJECT_DIR$/io/io.iml" />
       <module fileurl="file://$PROJECT_DIR$/iterator_pattern/iterator_pattern.iml" filepath="$PROJECT_DIR$/iterator_pattern/iterator_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/leetCode/leetCode.iml" filepath="$PROJECT_DIR$/leetCode/leetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mediator_pattern/mediator_pattern.iml" filepath="$PROJECT_DIR$/mediator_pattern/mediator_pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/memento_pattern/memento_pattern.iml" filepath="$PROJECT_DIR$/memento_pattern/memento_pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/observer_pattern/observer_pattern.iml" filepath="$PROJECT_DIR$/observer_pattern/observer_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/prototype_pattern/prototype_pattern.iml" filepath="$PROJECT_DIR$/prototype_pattern/prototype_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/proxy_pattern/proxy_pattern.iml" filepath="$PROJECT_DIR$/proxy_pattern/proxy_pattern.iml" />
-      <module fileurl="file://$PROJECT_DIR$/refletxtandproxy/refletxtandproxy.iml" filepath="$PROJECT_DIR$/refletxtandproxy/refletxtandproxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/single_pattern/single_pattern.iml" filepath="$PROJECT_DIR$/single_pattern/single_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/strategy_attern/strategy_attern.iml" filepath="$PROJECT_DIR$/strategy_attern/strategy_attern.iml" />
     </modules>
