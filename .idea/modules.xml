@@ -21,7 +21,10 @@
       <module fileurl="file://$PROJECT_DIR$/prototype_pattern/prototype_pattern.iml" filepath="$PROJECT_DIR$/prototype_pattern/prototype_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/proxy_pattern/proxy_pattern.iml" filepath="$PROJECT_DIR$/proxy_pattern/proxy_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/single_pattern/single_pattern.iml" filepath="$PROJECT_DIR$/single_pattern/single_pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/state_pattern/state_pattern.iml" filepath="$PROJECT_DIR$/state_pattern/state_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/strategy_attern/strategy_attern.iml" filepath="$PROJECT_DIR$/strategy_attern/strategy_attern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/templatemethod_pattern/templatemethod_pattern.iml" filepath="$PROJECT_DIR$/templatemethod_pattern/templatemethod_pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/visitor_pattern/visitor_pattern.iml" filepath="$PROJECT_DIR$/visitor_pattern/visitor_pattern.iml" />
     </modules>
   </component>
 </project>
