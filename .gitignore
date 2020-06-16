@@ -21,3 +21,4 @@ state_pattern/state_pattern.iml
 strategy_attern/strategy_attern.iml
 templatemethod_pattern/templatemethod_pattern.iml
 visitor_pattern/visitor_pattern.iml
+.idea/
