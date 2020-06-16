@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.dm</groupId>
+    <artifactId>JavaDesignPatterns</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>adapter_pattern</module>
+        <module>bridge_pattern</module>
+        <module>build_pattern</module>
+        <module>chainofresponsibility_pattern</module>
+        <module>command_pattern</module>
+        <module>composite_pattern</module>
+        <module>decorator_pattern</module>
+        <module>facade_pattern</module>
+        <module>factory_pattern</module>
+        <module>flyweight_pattern</module>
+        <module>Interpreter_pattern</module>
+        <module>iterator_pattern</module>
+        <module>memento_pattern</module>
+        <module>mediator_pattern</module>
+        <module>observer_pattern</module>
+        <module>prototype_pattern</module>
+        <module>proxy_pattern</module>
+        <module>single_pattern</module>
+        <module>state_pattern</module>
+        <module>strategy_attern</module>
+        <module>templatemethod_pattern</module>
+        <module>visitor_pattern</module>
+    </modules>
+</project>
